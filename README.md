@@ -235,7 +235,7 @@ view(xem) giao  diện người dùng
 Model(Mô hình ) Dùng kết nối CSDL
 Controller(điều khiển )Dùng để kết nối Model với View
 VD : Truy cập trang danh sách 
-B1 truy cập vào route http
+B1 truy te httpcập vào rou
 B2 từ route sẽsẽ gọi đến controller tương ứng 
 B3 trong controller sẽ viết câu lệnh để lấy dữ liệu từ CSDL thông qua Model
 B4 Sau khi lấy đc dữ liệu thông qua model, controller sẽ truyền dữ liệu sang view
