@@ -3,6 +3,7 @@ require("dotenv").config();
 
 const database = require("./config/database");
 const route = require('./routes/client/index.route');
+const routeAdmin = require("./routes/admin/index.route");
 
 database.connect();
 
@@ -14,9 +15,10 @@ app.set("view engine", "pug");
 
 app.use(express.static("public")) // nhunsg file tĩnh 
 
+routeAdmin(app);
 route(app);
 
 
 app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
+    console.log(`App listening on port ${port}`);
 });

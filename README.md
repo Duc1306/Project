@@ -251,3 +251,6 @@ Khởi tạo npm init
 khơi tạo Express npm i express
 nodemon npm install -- save-dev noedmon  ,thêm dòng "start": "nodemon --inspect index.js vào mục script trong file package/json
 Tạo file index.js trong thư mục gốcss
+
+tasklist | findstr node
+taskkill /IM node.exe /F
