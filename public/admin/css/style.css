@@ -22,12 +22,12 @@
     left: 0;
 }
 
-.body .main {
-    margin: 15px;
-    position: relative;
-    left: 150px;
-    width: calc(100% - 180px);
-}
+    .body .main {
+        margin: 15px;
+        position: relative;
+        left: 150px;
+        width: calc(100% - 180px);
+    }
 
 .sider .inner-menu ul {
     list-style: none;
@@ -35,7 +35,7 @@
     margin: 0;
 }
 
-.sider .inner-menu ul li {
+.sider .inner-menu ul li a {
     color: #fff;
     display: block;
     padding: 6px 10px;
